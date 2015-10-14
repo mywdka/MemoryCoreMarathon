@@ -1,0 +1,59 @@
+Below is the list of necessary parts for building a magnetic core memory
+Arduino shield v1.1.  We found all of these parts (including the cores
+themselves) easily available on at least one of http://www.ebay.com and
+http://www.farnell.com and had our PCBs manufactured by
+http://www.eurocircuits.com.
+
+One important note is that the value of the four drive resistors, listed
+as 18ohm, may need to be adjusted if the cores used are sufficiently
+different to ours.
+
+
+DRIVING:
+8x 2N4401/MMBT4401 transistor (SOT-23 package)
+8x 2N4403/MMBT4403 transistor (SOT-23 package)
+17x 220ohm 1% resistor (1206 package)
+4x 18ohm 1% resistor (1206 package) [May need calibration as described above.]
+4x BAW56 diode pair (SOT-23 package)
+4x BAV70 diode pair (SOT-23 package)
+
+SENSING:
+2x 1.3k 1% resistor (1206 package)
+2x 3.3k 1% resistor (1206 package)
+2x 20ohm 1% resistor (1206 package)
+1x dual MAX907CPAS comparator (SO08 package)
+2x 4.7k resistor (1206 package)
+
+LATCHING, TIMING:
+1x dual 74HC74D latch (SO14 package)
+1x dual 74HC123D timer (SO16 package)
+1x 47pF capacitor (1206 package)
+1x 12.5k resistor (1206 package)
+
+ADDRESSING:
+1x hex 74HC04D (SO14 package)
+1x quad 74HC86D (SO14 package)
+3x quad 74HC08D (SO14 package)
+2x quad 74HC00D (SO14 package)
+
+BYPASS/FILTER CAPS:
+10x 0.1uF tantalum capacitor (1206 package)
+1x 47uF tantalum capacitor (1206 package)
+
+CONNECTIONS:
+2x 0.1" (1x8)-pin header (Arduino stackable)
+2x 0.1" (1x6)-pin header (Arduino stackable)
+1x 0.1" (1x12)-pin header (male)
+1x 0.1" (1x2)-pin header (male)
+1x 0.1" (1x12)-pin header (female)
+1x 0.1" (1x2)-pin header (female)
+
+PCBs:
+1x North-Nash driver board v1.1
+1x Laser-cut stencil for driver board v1.1
+1x North-Nash core board v1.1
+~10g solder paste
+
+CORES:
+32x ~1mm hard ferrite cores (with wide hysteresis loop)
+Several metres of 0.20mm diameter glazed copper wire.
