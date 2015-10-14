@@ -1,6 +1,6 @@
-// Rough-and-ready Arduino code for testing, calibrating and using core memory shield.
+// Unravel the code, Core Memory Marathon
 //
-// Copyright 2011 Ben North and Oliver Nash.
+// Copyright 2015 Simon de Bakker, WdKA
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -14,6 +14,9 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//
+// This code is heavily based on the original serial_interface_32bit code by
+// B. North and O. Nash (http://corememoryshield.com).
 
 #define ADDRSIZE      5
 #define WORDSIZE      (1 << ADDRSIZE)
